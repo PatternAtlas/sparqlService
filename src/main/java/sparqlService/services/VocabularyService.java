@@ -9,10 +9,12 @@ import com.hp.hpl.jena.ontology.OntProperty;
 import com.hp.hpl.jena.ontology.OntResource;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+import org.springframework.stereotype.Service;
 import sparqlService.models.DatatypeProperty;
 import sparqlService.models.ObjectProperty;
 import sparqlService.models.OntologyClass;
 
+@Service
 public class VocabularyService {
 
     public VocabularyService() {
